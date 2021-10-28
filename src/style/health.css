@@ -1,0 +1,253 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,200&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.health_section{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  background: rgb(164,247,249);
+  background: linear-gradient(143deg, rgba(164,247,249,1) 0%, rgba(255,202,202,1) 48%, rgba(249,238,137,1) 100%);
+}
+.health_board_bg{
+  width: 1400px;
+  height: auto; 
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+.health_board{
+  border-radius: 20px;
+  background: #fff;
+  margin: 20px 0;
+  padding: 60px;
+  text-align: center; 
+}
+.health_categories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.health_categorie{
+  width: 450px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: .3s;
+}
+.health_categorie:hover{
+  transform: scale(.9);
+}
+.icon_categorie{
+  margin-right: 15px;
+}
+.title_categorie{
+text-align: center;
+}
+.title_categorie a{
+  font-size: 23px;
+  font-weight: 500;
+  color: #000;
+}
+/* Health page */
+.health_page{
+  background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(242,237,54,0.9360119047619048) 0%, rgba(187,232,167,1) 100%);}
+.health_page:hover{
+  box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+  -webkit-box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+  -moz-box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+}
+/* Heart page */
+.heart_page{
+  background: rgb(2,0,36);
+  background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(242,142,142,0.9360119047619048) 0%, rgba(250,124,124,1) 100%);
+}
+.heart_page:hover{
+  box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+  -webkit-box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+  -moz-box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+}
+/* Water page */
+.water_page{
+  background: rgb(2,0,36);
+  background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(78,187,232,0.9360119047619048) 0%, rgba(131,172,210,1) 100%);
+}
+.water_page:hover{
+  box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+  -webkit-box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+  -moz-box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+}
+/* ========== ССЫЛКА НАЗАД ========== */
+.back{
+    text-align: left;
+    margin-top: 20px;
+}
+/* ========== Диаграммы ========== */
+.health_diagrams{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.health_title{
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0 20px 20px;
+  font-weight: 500; 
+}
+.health_diagram{
+  position: relative;
+  height: 500px;
+  border-radius: 20px;
+
+} 
+.health_heart_diagram{
+  background: rgb(0,0,0);
+  background: linear-gradient(143deg, rgba(0,0,0,1) 0%, rgba(250,171,132,1) 0%, rgba(249,137,141,1) 100%);
+}
+.health_water_diagram{
+  width: 60%;
+  -webkit-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+  -moz-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+  box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+}
+.health_active_diagram{
+  width: 40%;
+  margin-right: 20px;
+  -webkit-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+  -moz-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+  box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+}
+
+
+  /* ================= ФОРМА ================= */
+
+/*Окно*/
+.form_info{  
+    text-align: center; 
+}
+/*Заголовок */
+.form_title{
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.form_subtitle{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text_input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid #ffbe76;
+    outline: none;
+    background-color: transparent;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.input{
+   color:#000;
+   font-size:1.1em;
+   border-radius:5px;
+   padding: 5px;
+   width: 70px;
+   border: 1px solid #000;
+   text-align: center;
+}
+.data_blocks{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ================= КНОПКА ================= */
+.button{
+  border-radius: 50%;
+  background: rgba(242,237,54,0.9360119047619048);
+  width: 55px;
+  height: 55px;
+  text-decoration: none;
+  transition: .3s linear;
+  margin-right: 20px;
+  border:0;
+}
+.button:hover{
+  background: rgba(187,232,167,1);
+}
+/* ================= RADIO ================= */
+
+/* для элемента input c type="radio" */
+.custom-radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label связанного с .custom-radio */
+
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.custom-radio+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+.custom-radio:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+/* стили для радиокнопки, находящейся в фокусе */
+.custom-radio:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.custom-radio:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.custom-radio:checked+label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.custom-radio:disabled+label::before {
+  background-color: #e9ecef;
+}
+.radio {
+  margin-bottom: 0.4em;
+}
+/* ================= РЕКОМЕНДАЦИИ ================= */
+.recom_content p{
+  font-size: 18px;
+  margin-bottom: 8px;
+  text-align: left;
+  margin-left: 15px;
+  padding: 5px;
+  line-height: 30px;
+}

@@ -1,0 +1,126 @@
+  <nav class="main_nav">
+    <div class="main_item item"><a href="#main"><i class="fas fa-home link"></i></a></div>
+    <div class="info_item item"><a href="#info"><i class="fas fa-info link"></i></a></div>
+    <div class="health_item item"><a href="#health"><i class="fas fa-heartbeat link"></i></a></div>
+  </nav>
+  <section class="bg_section" id="main">
+    <div class="bg_circle"></div>
+    <div class="main_section">
+
+      <div class="main_content">
+        <div class="main_title">
+          <img src="img/icon.png" width="100" height="100" alt="">
+          <h1 class="title_content"> It's not just system<br> It's <span>I'm healthy</span></h1>
+        </div>
+        <div class="main_text">
+          <p class="text_content"> Система <span>I'm healthy</span> разработана для
+            лёгкого отслеживания состояния
+            собственного здоровья, показателей сердечного ритма
+            и водного баланса.</p>
+        </div>
+        <a class="link_chance" href="#health">Попробовать</a>
+      </div>
+      <div class="main_image">
+        <img class="" src="img/img_4_1.png" alt="">
+      </div>
+    </div>
+    <div class="loader">
+      <div class="circle"></div>
+      <i class="fas fa-arrow-down arrow" id="arrow"></i>
+    </div>
+  </section>
+  <section class="info_section" id="info">
+    <div class="bg_circle_info"></div>
+    <div class="info_block">
+      <div class="info_image">
+        <img class="" src="img/girl.png" alt="">
+      </div>
+      <div class="info_content">
+        <div class="info_title">
+          <h2 class="title_content"> Немного о важном</h2>
+        </div>
+        <div class="info_text">
+          <p class="text_content left">~ Система I'm healthy предлагает Вам эффективные инструменты для отслеживания и
+            улучшения здоровья.<br>
+            <span class="ital">Например, показатели сердцебиения, состояние эмоционального здоровья, водный баланс,
+              общее самочувствие.</span><br>
+            ~ Вы сможете наблюдать за состоянием своих данных круглосуточно. <br>
+            <span class="ital">*Если Вам кажется, что у Вас проблемы со здоровьем, Вам не кажется. Обязательно
+              обратитесь к специалисту со своей проблемой как можно скорее!</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="loader">
+      <div class="circle"></div>
+      <i class="fas fa-arrow-down arrow" id="arrow_health"></i>
+    </div>
+  </section>
+  <section class="health_section" id="health">
+    <div class="health_board_bg">
+      <div class="health_board">
+        <div class="health_categories">
+          <div class="health_categorie health_page">
+            <div class="title_categorie"> <a href="health.html">Общее самочувствие</a></div>
+            <div class="icon_categorie">
+              <img src="img/user.png" alt="">
+            </div>
+          </div>
+          <div class="health_categorie heart_page">
+            <div class="title_categorie"> <a href="heart.html">Сердечный пульс</a></div>
+            <div class="icon_categorie">
+              <img src="img/heart_beat.png" width="30" height="30" alt="">
+            </div>
+          </div>
+          <div class="health_categorie water_page ">
+            <div class="title_categorie"> <a href="water.html">Питьевой режим</a></div>
+            <div class="icon_categorie">
+              <img src="img/water-drop.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="health_diagrams">
+          <div class="health_diagram health_active_diagram">
+            <div class="health_title">Активность</div>
+            <div class="active_diagram" id="active_diagram"></div>
+          </div>
+          <div class="health_diagram health_heart_diagram">
+            <div class="health_title">Сердцебиение</div>
+            <div class="load">
+              <i class="fa fa-heartbeat fa-3x"></i>
+            </div>
+            <div class="heart_subtitle">102 bpm</div>
+          </div>
+          <div class="health_diagram health_water_diagram">
+            <div class="health_title">Вода</div>
+            <div class="water" id="water"></div>
+          </div>
+        </div>
+        <div class="health_diagrams">
+          <div class="health_diagram health_feel_diagram">
+            <div class="health_title">Эмоциальное здоровье</div>
+            <div class="feel_diagram" id="feel_diagram"></div>
+          </div>
+          <div class="health_diagram health_dinamic_diagram">
+            <div class="health_title">Динамика пульса</div>
+            <div class="dinamic_diagram" id="dinamic_diagram"></div>
+          </div>
+          <div class="health_diagram health_micro_diagram">
+            <div class="health_title">Микроэлементы</div>
+            <div class="micro_diagram" id="micro_diagram"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script/loader.js"></script>
+  <!-- библа amCharts -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  <!-- скрипты проекта -->
+  <script src="script/person.js"></script>
+  <script src="script/active.js"></script>
+  <script src="script/water.js"></script>
+  <script src="script/feel.js"></script>
+  <script src="script/dinamic.js"></script>

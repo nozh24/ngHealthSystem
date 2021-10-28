@@ -1,0 +1,177 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;1,200&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.health_section{
+    height: 100%;
+    position: relative;
+    display: flex;
+    background: rgb(164,247,249);
+    background: linear-gradient(143deg, rgba(164,247,249,1) 0%, rgba(255,202,202,1) 48%, rgba(249,238,137,1) 100%);
+}
+  .health_board_bg{
+    width: 1400px;
+    height: auto; 
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+  .health_board{
+    border-radius: 20px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 60px;
+    text-align: center; 
+}
+  .health_categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .health_categorie{
+    width: 450px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .3s;
+}
+  .health_categorie:hover{
+    transform: scale(.9);
+}
+  .icon_categorie{
+    margin-right: 15px;
+}
+  .title_categorie{
+  text-align: center;
+}
+  .title_categorie a{
+    font-size: 23px;
+    font-weight: 500;
+    color: #000;
+}
+  /* Health page */
+  .health_page{
+    background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(242,237,54,0.9360119047619048) 0%, rgba(187,232,167,1) 100%);}
+  .health_page:hover{
+    box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+    -webkit-box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+    -moz-box-shadow: 1px 5px 32px 5px rgba(233,248,113,1);
+}
+  /* Heart page */
+  .heart_page{
+    background: rgb(2,0,36);
+  background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(242,142,142,0.9360119047619048) 0%, rgba(250,124,124,1) 100%);
+}
+  .heart_page:hover{
+    box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+  -webkit-box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+  -moz-box-shadow: 1px 5px 32px 3px rgba(233,160,118,1);
+}
+  /* Water page */
+  .water_page{
+    background: rgb(2,0,36);
+    background: linear-gradient(326deg, rgba(2,0,36,1) 0%, rgba(78,187,232,0.9360119047619048) 0%, rgba(131,172,210,1) 100%);
+}
+  .water_page:hover{
+    box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+    -webkit-box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+    -moz-box-shadow: 1px 5px 32px 5px rgba(146,204,230,1);
+}
+/* ========== ССЫЛКА НАЗАД ========== */
+.back{
+    text-align: left;
+    margin-top: 20px;
+}
+ /* ========== Диаграммы ========== */
+  .health_diagrams{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin-top: 30px;
+}
+  .health_title{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500; 
+}
+  .health_diagram{
+    position: relative;
+    height: 600px;
+    border-radius: 20px;
+} 
+  .health_heart_diagram{
+    background: rgb(0,0,0);
+    background: linear-gradient(143deg, rgba(0,0,0,1) 0%, rgba(250,171,132,1) 0%, rgba(249,137,141,1) 100%);
+}
+  .health_water_diagram{
+      width: 70%;
+    -webkit-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+    -moz-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+    box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+}
+  .health_active_diagram{
+      width: 30%;
+    margin-right: 20px;
+    -webkit-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+    -moz-box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+    box-shadow: 1px 5px 32px 5px rgba(246, 236, 116, 0.2);
+}
+/* Человек */
+.health_current_person{
+    height: 500px;
+    width: 50%;
+  }
+
+  /* ================= ФОРМА ================= */
+
+/*Окно резерва*/
+.form_info{  
+    text-align: center; 
+}
+  /*Заголовок бронирования столов*/
+.form_title{
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.form_subtitle{
+    font-size: 23px;
+    margin-bottom: 45px;
+}
+.text_input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    border:none;
+    border-bottom: 1px solid #ffbe76;
+    outline: none;
+    background-color: transparent;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.error_message{
+    margin-top: 20px;
+    color: rgb(240, 52, 52);
+    font-size: 20px;
+}
+/* ================= КНОПКА ================= */
+.button{
+  transition: .3s linear;
+  border-radius: 50%;
+  background: #ffbe76;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transition: .3s linear;
+  margin-right: 20px;
+}
+
+
+/* ================= ФОРМА ================= */
+
+
