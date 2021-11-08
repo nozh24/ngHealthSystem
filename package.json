@@ -1,8 +1,8 @@
 {
-  "name": "nghealthsystem",
+  "name": "system",
   "version": "1.0.0",
   "description": "First Angular 12 Project",
-  "author": "Eugene Popov metanit.com",
+  "author": "Anastasi",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -16,6 +16,10 @@
     "@angular/platform-browser": "~12.0.0",
     "@angular/platform-browser-dynamic": "~12.0.0",
     "@angular/router": "~12.0.0",
+    "@fortawesome/angular-fontawesome": "^0.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "font-awesome": "^4.7.0",
     "rxjs": "~6.6.0",
     "zone.js": "~0.11.4"
   },
